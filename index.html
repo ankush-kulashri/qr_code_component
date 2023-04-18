@@ -24,15 +24,17 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: var(--grayish-blue);
+      background-color: var(--light-gray);
       font-family: 'Outfit', sans-serif;
       user-select: none;
+      box-sizing: border-box;
     }
     .main
     {
       background-color: var(--white);
-      width: 300px;
-      border-radius: 1em;
+      width: 290px;
+      border-radius: 1.25em;
+      margin: 0;
     }
     .qrcode
     {
@@ -42,19 +44,25 @@
       justify-content: center;
       padding: 1em;
       font-weight: 700;
-      font-size: 15px;
+      font-size: 14px;
       text-align: center;
+      
     }
     .qrcode > img
     {
-      border-radius: 1em;
+      border-radius: 0.5rem;
       width: 100%;
     }
     .qrcode > p
     {
       font-weight: 400;
-      color: var(--light-gray);
-      margin-top: 0;
+      color: var(--grayish-blue);
+      margin: 0 0 1.5em 0;
+      width: 90%;
+    }
+    .qrcode > h2
+    {
+      margin: 1em 0 1em 0;
     }
   </style>
 </head>
