@@ -46,6 +46,7 @@
       font-weight: 700;
       font-size: 14px;
       text-align: center;
+      font-size: 15px;
       
     }
     .qrcode > img
@@ -60,18 +61,19 @@
       margin: 0 0 1.5em 0;
       width: 90%;
     }
-    .qrcode > h2
+    .qrcode > h1
     {
       margin: 1em 0 1em 0;
+      font-size: 1.5em;
     }
   </style>
 </head>
 <body>
-  <div class="main">
-    <div class="qrcode">
-      <img src="./images/image-qr-code.png" />
-      <h2>Improve your front-end skills by building projects</h2>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to<br/> the next level</p>
+  <div class="main" role="main">
+    <div class="qrcode" role="columnheader">
+      <img src="./images/image-qr-code.png" alt="QR Code Image" />
+      <h1 role="heading">Improve your front-end skills by building projects</h1>
+      <p role="definition">Scan the QR code to visit Frontend Mentor and take your coding skills to<br/> the next level</p>
     </div>
   </div>
 </body>
